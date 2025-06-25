@@ -467,6 +467,12 @@
       <pose>-3.5 9 0 0 0 0</pose>
     </include>
 
+    <include>
+      <name>fire_truck</name>
+      <uri>model://fire_truck</uri>
+      <pose>21.7757 -0.824513 0 0 0 -1.5700</pose>
+      <scale>0.1 0.1 0.1</scale>
+    </include>
 
   </world>
 </sdf>
