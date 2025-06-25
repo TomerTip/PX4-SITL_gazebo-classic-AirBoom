@@ -16975,7 +16975,7 @@
       <elevation>0</elevation>
       <heading_deg>0</heading_deg>
     </spherical_coordinates>
-    <model name='iris_fpv_cam_down'>
+    <model name='iris_airboom'>
       <frame name='iris::__model__' attached_to='iris::base_link'>
         <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
       </frame>
@@ -17847,7 +17847,7 @@
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
-      <model name='iris_fpv_cam_down'>
+      <model name='iris_airboom'>
         <pose>1.00998 0.979914 0.104515 0.001696 -0.000368 3e-06</pose>
         <scale>1 1 1</scale>
         <link name='fpv_cam::link'>

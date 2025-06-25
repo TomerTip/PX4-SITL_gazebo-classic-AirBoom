@@ -26,7 +26,7 @@
 
 <?xml version='1.0'?>
 <sdf version='1.5'>
-  <model name='iris_fpv_cam_down'>
+  <model name='iris_airboom'>
 
     <include>
       <uri>model://iris</uri>

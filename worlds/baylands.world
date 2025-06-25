@@ -200,7 +200,7 @@
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
-      <model name='iris_fpv_cam_down'>
+      <model name='iris_airboom'>
         <pose>1.01 0.98 0.83 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='fpv_cam::link'>
@@ -393,6 +393,9 @@
         <pose>-6.95085 0.573913 1.50825 -0 -1.5698 -3.01462</pose>
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
+	      <track_visual>
+          <name></name>
+        </track_visual>
       </camera>
     </gui>
   </world>
