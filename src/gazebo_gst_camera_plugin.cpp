@@ -72,7 +72,7 @@ void GstCameraPlugin::startGstThread() {
     g_object_set(G_OBJECT(encoder), "bitrate", 800, "preset", 1, nullptr);
   } else {
     encoder = gst_element_factory_make("x264enc", nullptr);
-    g_object_set(G_OBJECT(encoder), "bitrate", 800, "speed-preset", 6, "tune", 4, "key-int-max", 10, nullptr);
+    g_object_set(G_OBJECT(encoder), "bitrate", 0, "speed-preset", 0, "tune", 4, "key-int-max", 10, "qp", 0, NULL); //optimal picture quality settings for debug
   }
 
   GstElement* payloader;
