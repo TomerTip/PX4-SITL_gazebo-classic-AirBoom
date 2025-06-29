@@ -6,19 +6,19 @@
       <uri>model://iris</uri>
     </include>
 
-    <include>
+    <!-- <include>
       <uri>model://airboom_cam_1</uri>
       <pose>0 0 0 0 1.57 0</pose>
       <name>fpv_cam_down</name>
-    </include>
+    </include> -->
 
     <include>
       <uri>model://airboom_cam_2</uri>
       <name>fpv_cam_front_30</name>
-      <pose>0.1 0 -0.05 0 0.5236 0</pose>
+      <pose>0.1 0 -0.05 0 -0.261799 0</pose> <!-- -0.5236 -->
     </include>
 
-    <joint name="airboom_cam_1_joint" type="fixed">
+    <!-- <joint name="airboom_cam_1_joint" type="fixed">
       <child>fpv_cam_down::link</child>
       <parent>iris::base_link</parent>
       <axis>
@@ -28,7 +28,7 @@
           <lower>0</lower>
         </limit>
       </axis>
-    </joint>
+    </joint> -->
 
     <joint name="airboom_cam_2_joint" type="fixed">
       <child>fpv_cam_front_30::link</child>
