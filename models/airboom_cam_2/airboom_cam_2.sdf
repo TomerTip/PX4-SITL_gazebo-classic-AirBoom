@@ -71,7 +71,7 @@
             <robotNamespace></robotNamespace>
             <udpPort>5601</udpPort>
           </plugin> -->
-          <plugin name="camera_controller" filename="libgazebo_ros_camera.so">
+          <plugin name="camera2_controller" filename="libgazebo_ros_camera.so">
             <alwaysOn>true</alwaysOn>
             <updateRate>0.0</updateRate>
             <cameraName>camera</cameraName>
